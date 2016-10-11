@@ -1,0 +1,16 @@
+Package: RRedshiftSQL
+Type: Package
+Title: R Interface to the 'Redshift' Database
+Version: 0.1.2
+Date: 2016-09-14
+Author: Michael Treadwell
+Maintainer: Michael Treadwell <michael.treadwell@interworks.com>
+Description: Superclasses 'PostgreSQL' connection to help enable full 'dplyr' functionality on 'Redshift'.
+License: GPL-2
+LazyData: TRUE
+Depends:
+    DBI (>= 0.4.1),
+    RPostgreSQL (>= 0.4-1)
+Suggests:
+    methods
+RoxygenNote: 5.0.1
